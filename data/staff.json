@@ -1,0 +1,21 @@
+{
+  "instructors": [
+    {
+      "name": "Instructor Name Here",
+      "email": "instructor@iiit.ac.in",
+      "photo": "",
+      "website": "",
+      "hours": "",
+      "location": ""
+    }
+  ],
+  "tas": [
+    {
+      "name": "TA Name Here",
+      "email": "ta@iiit.ac.in",
+      "photo": "",
+      "hours": "",
+      "location": ""
+    }
+  ]
+}
