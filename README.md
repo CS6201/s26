@@ -1,6 +1,6 @@
 # Introduction to Software Systems - Course Website
 
-A dark-themed, modular course website for "Introduction to Software Systems" (Spring 2026) at International Institute of Information Technology, Hyderabad.
+A modular course website for "Introduction to Software Systems" (Spring 2026) at International Institute of Information Technology, Hyderabad.
 
 ## Features
 
