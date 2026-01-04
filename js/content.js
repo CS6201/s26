@@ -167,7 +167,7 @@ async function loadLectures() {
         <div class="section">
             <h2>Lectures</h2>
             <div class="section-info">
-                <p><strong>Timing:</strong> 8:30 AM - 9:55 AM</p>
+                <p><strong>Timing:</strong> 8:30 - 9:55</p>
                 <p><strong>Section A:</strong> SH-1</p>
                 <p><strong>Section B:</strong> SH-2</p>
             </div>
@@ -190,7 +190,7 @@ async function loadLectures() {
             
             <h3>Tutorials</h3>
             <div class="section-info">
-                <p><strong>Timing:</strong> 8:30 AM - 9:55 AM</p>
+                <p><strong>Timing:</strong> 8:30 - 9:55</p>
                 <p><strong>Section A:</strong> SH-1</p>
                 <p><strong>Section B:</strong> SH-2</p>
             </div>
@@ -238,7 +238,7 @@ async function loadLabs() {
         <div class="section">
             <h2>Labs</h2>
             <div class="section-info">
-                <p><strong>Timing:</strong> 2:00 PM - 5:00 PM</p>
+                <p><strong>Timing:</strong> 14:00 - 17:00</p>
             </div>
             
             <table>

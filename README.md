@@ -137,8 +137,8 @@ Used for tabular data. Follow the existing structure:
     {
       "number": 1,
       "topic": "Shell Scripting",
-      "announcement": "Jan 15, 2026 10:00 AM",
-      "deadline": "Jan 30, 2026 11:59 PM",
+      "announcement": "Jan 15, 2026- 10:00",
+      "deadline": "Jan 30, 2026- 23:59",
       "github": "https://classroom.github.com/..."
     }
   ]
@@ -154,8 +154,8 @@ Used for tabular data. Follow the existing structure:
       "serial": 1,
       "type": "Quiz 1",
       "topic": "OS Basics",
-      "announcement": "Feb 1, 2026 10:00 AM",
-      "deadline": "Feb 15, 2026 5:00 PM",
+      "announcement": "Feb 1, 2026- 10:00",
+      "deadline": "Feb 15, 2026- 17:00",
       "github": "https://classroom.github.com/..."
     }
   ]
@@ -187,7 +187,7 @@ Used for tabular data. Follow the existing structure:
       "email": "john.doe@iiit.ac.in",
       "photo": "images/john-doe.jpg",
       "website": "https://example.com/johndoe",
-      "hours": "Monday 2:00 PM - 4:00 PM",
+      "hours": "Monday 14:00 - 16:00",
       "location": "Room 301, Academic Block"
     }
   ],
@@ -196,7 +196,7 @@ Used for tabular data. Follow the existing structure:
       "name": "Jane Smith",
       "email": "jane.smith@iiit.ac.in",
       "photo": "images/jane-smith.jpg",
-      "hours": "Tuesday 3:00 PM - 5:00 PM",
+      "hours": "Tuesday 15:00 - 17:00",
       "location": "TA Room, Lab Building"
     }
   ]
