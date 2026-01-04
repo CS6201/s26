@@ -99,17 +99,17 @@ async function loadAbout() {
                     <tr>
                         <td>Programming Assignments</td>
                         <td>5</td>
-                        <td>5%</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Lab Submissions & Paper Assignments</td>
                         <td>10</td>
-                        <td>10%</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Project</td>
                         <td>10</td>
-                        <td>10%</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><strong>Total</strong></td>
@@ -120,7 +120,7 @@ async function loadAbout() {
             </table>
             
             <div class="note">
-                <strong>Note:</strong> The course instructors reserve the right to make minor modifications to the above distribution based on the progress of the course.
+                <strong>Note:</strong> The course instructors reserve the right to make modifications to the above distribution based on the progress of the course.
             </div>
         </div>
     `;
@@ -133,19 +133,35 @@ async function loadLectures() {
     const response = await fetch('data/lectures.json');
     const data = await response.json();
     
-    let tableRows = '';
+    let lectureRows = '';
     data.lectures.forEach(lecture => {
-        tableRows += `
+        lectureRows += `
             <tr>
                 <td>${lecture.number}</td>
-                <td>${lecture.sectionA || 'TBA'}</td>
-                <td>${lecture.sectionB || 'TBA'}</td>
-                <td>${lecture.topic || 'TBA'}</td>
-                <td>${lecture.slides ? `<a href="${lecture.slides}" target="_blank">Slides</a>` : 'TBA'}</td>
-                <td>${lecture.references ? `<a href="${lecture.references}" target="_blank">References</a>` : 'TBA'}</td>
+                <td>${lecture.sectionA || ''}</td>
+                <td>${lecture.sectionB || ''}</td>
+                <td>${lecture.topic || ''}</td>
+                <td>${lecture.slides ? `<a href="${lecture.slides}" target="_blank">Slides</a>` : ''}</td>
+                <td>${lecture.references ? `<a href="${lecture.references}" target="_blank">References</a>` : ''}</td>
             </tr>
         `;
     });
+    
+    let tutorialRows = '';
+    if (data.tutorials && data.tutorials.length > 0) {
+        data.tutorials.forEach(tutorial => {
+            tutorialRows += `
+                <tr>
+                    <td>${tutorial.number}</td>
+                    <td>${tutorial.date || ''}</td>
+                    <td>${tutorial.date || ''}</td>
+                    <td>${tutorial.topic || ''}</td>
+                    <td>${tutorial.slides ? `<a href="${tutorial.slides}" target="_blank">Slides</a>` : ''}</td>
+                    <td>${tutorial.references ? `<a href="${tutorial.references}" target="_blank">References</a>` : ''}</td>
+                </tr>
+            `;
+        });
+    }
     
     document.getElementById('main-content').innerHTML = `
         <div class="section">
@@ -160,15 +176,38 @@ async function loadLectures() {
                 <thead>
                     <tr>
                         <th>Lecture Number</th>
-                        <th>Section A (Date)</th>
-                        <th>Section B (Date)</th>
+                        <th>Section A</th>
+                        <th>Section B</th>
                         <th>Topic</th>
                         <th>Slides</th>
                         <th>References</th>
                     </tr>
                 </thead>
                 <tbody>
-                    ${tableRows}
+                    ${lectureRows}
+                </tbody>
+            </table>
+            
+            <h3>Tutorials</h3>
+            <div class="section-info">
+                <p><strong>Timing:</strong> 8:30 AM - 9:55 AM</p>
+                <p><strong>Section A:</strong> SH-1</p>
+                <p><strong>Section B:</strong> SH-2</p>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tutorial Number</th>
+                        <th>Section A</th>
+                        <th>Section B</th>
+                        <th>Topic</th>
+                        <th>Slides</th>
+                        <th>References</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${tutorialRows}
                 </tbody>
             </table>
         </div>
@@ -187,10 +226,10 @@ async function loadLabs() {
         tableRows += `
             <tr>
                 <td>${lab.number}</td>
-                <td>${lab.date || 'TBA'}</td>
-                <td>${lab.topic || 'TBA'}</td>
-                <td>${lab.slides ? `<a href="${lab.slides}" target="_blank">Slides</a>` : 'TBA'}</td>
-                <td>${lab.references ? `<a href="${lab.references}" target="_blank">References</a>` : 'TBA'}</td>
+                <td>${lab.date || ''}</td>
+                <td>${lab.topic || ''}</td>
+                <td>${lab.slides ? `<a href="${lab.slides}" target="_blank">Slides</a>` : ''}</td>
+                <td>${lab.references ? `<a href="${lab.references}" target="_blank">References</a>` : ''}</td>
             </tr>
         `;
     });
@@ -199,7 +238,7 @@ async function loadLabs() {
         <div class="section">
             <h2>Labs</h2>
             <div class="section-info">
-                <p><strong>Timing:</strong> 2:00 PM - 5:00 PM on Wednesdays</p>
+                <p><strong>Timing:</strong> 2:00 PM - 5:00 PM</p>
             </div>
             
             <table>
@@ -216,6 +255,10 @@ async function loadLabs() {
                     ${tableRows}
                 </tbody>
             </table>
+            
+            <div class="note">
+                <strong>Note:</strong> More labs may be added as the semester progresses. This is not the final schedule.
+            </div>
         </div>
     `;
 }
@@ -232,10 +275,10 @@ async function loadAssignments() {
         tableRows += `
             <tr>
                 <td>${assignment.number}</td>
-                <td>${assignment.topic || 'TBA'}</td>
-                <td>${assignment.announcement || 'TBA'}</td>
-                <td>${assignment.deadline || 'TBA'}</td>
-                <td>${assignment.github ? `<a href="${assignment.github}" target="_blank">GitHub Link</a>` : 'TBA'}</td>
+                <td>${assignment.topic || ''}</td>
+                <td>${assignment.announcement || ''}</td>
+                <td>${assignment.deadline || ''}</td>
+                <td>${assignment.github ? `<a href="${assignment.github}" target="_blank">GitHub Link</a>` : ''}</td>
             </tr>
         `;
     });
@@ -261,6 +304,10 @@ async function loadAssignments() {
                     ${tableRows}
                 </tbody>
             </table>
+            
+            <div class="note">
+                <strong>Note:</strong> More assignments may be added as the semester progresses. This is not the final schedule.
+            </div>
         </div>
     `;
 }
@@ -293,11 +340,10 @@ async function loadExaminations() {
         tableRows += `
             <tr>
                 <td>${exam.serial}</td>
-                <td>${exam.type || 'TBA'}</td>
-                <td>${exam.topic || 'TBA'}</td>
-                <td>${exam.announcement || 'TBA'}</td>
-                <td>${exam.deadline || 'TBA'}</td>
-                <td>${exam.github ? `<a href="${exam.github}" target="_blank">GitHub Link</a>` : 'TBA'}</td>
+                <td>${exam.type || ''}</td>
+                <td>${exam.start || ''}</td>
+                <td>${exam.end || ''}</td>
+                <td>${exam.link ? `<a href="${exam.link}" target="_blank">Link</a>` : ''}</td>
             </tr>
         `;
     });
@@ -305,25 +351,25 @@ async function loadExaminations() {
     document.getElementById('main-content').innerHTML = `
         <div class="section">
             <h2>Examinations</h2>
-            <div class="section-info">
-                <p><strong>Note:</strong> All submissions will be made through GitHub Classroom.</p>
-            </div>
             
             <table>
                 <thead>
                     <tr>
                         <th>Serial Number</th>
                         <th>Exam Type</th>
-                        <th>Topic</th>
-                        <th>Announcement</th>
-                        <th>Deadline</th>
-                        <th>GitHub Link</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th>Link</th>
                     </tr>
                 </thead>
                 <tbody>
                     ${tableRows}
                 </tbody>
             </table>
+            
+            <div class="note">
+                <strong>Note:</strong> More examinations may be added as the semester progresses. This is not the final schedule.
+            </div>
         </div>
     `;
 }
@@ -340,8 +386,9 @@ async function loadResources() {
         tableRows += `
             <tr>
                 <td>${resource.serial}</td>
-                <td>${resource.type || 'TBA'}</td>
-                <td>${resource.link ? `<a href="${resource.link}" target="_blank">${resource.title || resource.link}</a>` : 'TBA'}</td>
+                <td>${resource.type || ''}</td>
+                <td>${resource.title || ''}</td>
+                <td>${resource.link ? `<a href="${resource.link}" target="_blank">Link</a>` : ''}</td>
             </tr>
         `;
     });
@@ -355,6 +402,7 @@ async function loadResources() {
                     <tr>
                         <th>Serial Number</th>
                         <th>Resource Type</th>
+                        <th>Title</th>
                         <th>Link</th>
                     </tr>
                 </thead>
@@ -400,9 +448,8 @@ async function loadStaff() {
                 }
                 <h3>${instructor.name}</h3>
                 <p><strong>Email:</strong> <a href="mailto:${instructor.email}">${instructor.email}</a></p>
-                ${instructor.website ? `<p><strong>Website:</strong> <a href="${instructor.website}" target="_blank">${instructor.website}</a></p>` : ''}
-                ${instructor.hours ? `<p><strong>Office Hours:</strong> ${instructor.hours}</p>` : ''}
-                ${instructor.location ? `<p><strong>Location:</strong> ${instructor.location}</p>` : ''}
+                ${instructor.website ? `<p><strong>Website:</strong> <a href="https://${instructor.website}" target="_blank">${instructor.website}</a></p>` : ''}
+                ${instructor.researchLab ? `<p><strong>Research Lab:</strong> ${instructor.researchLab}</p>` : ''}
             </div>
         `;
     });

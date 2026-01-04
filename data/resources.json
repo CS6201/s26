@@ -2,9 +2,9 @@
   "resources": [
     {
       "serial": 1,
-      "type": "",
-      "title": "",
-      "link": ""
+      "type": "Cheat Sheet",
+      "title": "Git Basics",
+      "link": "https://git-scm.com/cheat-sheet.pdf"
     }
   ]
 }

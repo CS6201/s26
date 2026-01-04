@@ -1,21 +1,62 @@
 {
   "instructors": [
     {
-      "name": "Instructor Name Here",
-      "email": "instructor@iiit.ac.in",
-      "photo": "",
-      "website": "",
-      "hours": "",
-      "location": ""
+      "name": "Anil Kumar Nelakanti",
+      "email": "akn@iiit.ac.in",
+      "photo": "images/akn.jpg",
+      "website": "aikn.github.io",
+      "researchLab": "MT-NLP Lab, LTRC"
+    },
+    {
+      "name": "Anoop M Namboodiri",
+      "email": "anoop@iiit.ac.in",
+      "photo": "images/amn.jpg",
+      "website": "faculty.iiit.ac.in/~anoop/",
+      "researchLab": "Biometrics and Secure ID Lab, CVIT"
     }
   ],
   "tas": [
     {
-      "name": "TA Name Here",
-      "email": "ta@iiit.ac.in",
+      "name": "Amol Vijayachandran",
+      "email": "amol.vijayachandran@students.iiit.ac.in",
+      "photo": "images/amol.jpg",
+      "hours": "11:00 - 12:00, Wednesday",
+      "location": "CVIT"
+    },
+    {
+      "name": "Archit Choudhary",
+      "email": "archit.choudhary@research.iiit.ac.in",
+      "photo": "images/archit.jpg",
+      "hours": "17:00 - 18:00, Monday",
+      "location": "MT-NLP Lab, LTRC"
+    },
+    {
+      "name": "Hrishiraj Mitra",
+      "email": "hrishiraj.mitra@research.iiit.ac.in",
+      "photo": "images/hrishiraj.jpg",
+      "hours": "TBA",
+      "location": "MT-NLP Lab, LTRC"
+    },
+    {
+      "name": "Prasoon Dev",
+      "email": "prasoon.dev@research.iiit.ac.in",
+      "photo": "images/prasoon.jpg",
+      "hours": "15:00 - 16:00, Friday",
+      "location": "IREL, LTRC"
+    },
+    {
+      "name": "Shreyas Deb",
+      "email": "shreyas.deb@research.iiit.ac.in",
       "photo": "",
-      "hours": "",
-      "location": ""
+      "hours": "TBA",
+      "location": "CCNSB"
+    },
+    {
+      "name": "Shubham Goel",
+      "email": "shubham.goel@students.iiit.ac.in",
+      "photo": "",
+      "hours": "TBA",
+      "location": "CVIT"
     }
   ]
 }

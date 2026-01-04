@@ -2,8 +2,43 @@
   "labs": [
     {
       "number": 1,
-      "date": "",
-      "topic": "",
+      "date": "Jan 7, 2026",
+      "topic": "Git, SSH, Vim",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 2,
+      "date": "Jan 21, 2026",
+      "topic": "Shell Scripting",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 3,
+      "date": "Jan 28, 2026",
+      "topic": "Python Basics",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 4,
+      "date": "Feb 11, 2026",
+      "topic": "Python Files, Functions",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 5,
+      "date": "Feb 25, 2026",
+      "topic": "Python Modules, Problems",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 6,
+      "date": "Mar 11, 2026",
+      "topic": "Python + System",
       "slides": "",
       "references": ""
     }

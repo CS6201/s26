@@ -1,8 +1,15 @@
 {
   "assignments": [
     {
+      "number": 0,
+      "topic": "Basic Shell Scripting",
+      "announcement": "",
+      "deadline": "",
+      "github": ""
+    },
+    {
       "number": 1,
-      "topic": "",
+      "topic": "Python Basics, Web Scraping",
       "announcement": "",
       "deadline": "",
       "github": ""

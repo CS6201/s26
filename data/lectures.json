@@ -1,10 +1,122 @@
 {
   "lectures": [
     {
+      "number": 0,
+      "sectionA": "Jan 3, 2026",
+      "sectionB": "Jan 3, 2026",
+      "topic": "Course Introduction; Computer Setup",
+      "slides": "",
+      "references": ""
+    },
+    {
       "number": 1,
-      "sectionA": "",
-      "sectionB": "",
-      "topic": "",
+      "sectionA": "Jan 7, 2026",
+      "sectionB": "Jan 10, 2026",
+      "topic": "Shell and Scripting",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 2,
+      "sectionA": "Jan 17, 2026",
+      "sectionB": "Jan 21, 2026",
+      "topic": "Python 1: Variables, Statements, Conditions, Vectorization, Loops",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 3,
+      "sectionA": "Jan 24, 2026",
+      "sectionB": "Jan 28, 2026",
+      "topic": "Python 2: DS, Files, Functions",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 4,
+      "sectionA": "Feb 4, 2026",
+      "sectionB": "Feb 7, 2026",
+      "topic": "Python 3: Modules, Import",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 5,
+      "sectionA": "Feb 18, 2026",
+      "sectionB": "Feb 21, 2026",
+      "topic": "S/w System Overview: Network, Memory, System Design Patterns",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 6,
+      "sectionA": "Mar 7, 2026",
+      "sectionB": "Mar 11, 2026",
+      "topic": "S/w System Development: Testing, IDE, CI/CD Pipelines",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 7,
+      "sectionA": "Mar 18, 2026",
+      "sectionB": "Mar 20, 2026",
+      "topic": "Web Tech: HTML/CSS",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 8,
+      "sectionA": "Mar 25, 2026",
+      "sectionB": "Mar 28, 2026",
+      "topic": "Web Tech: Javascript",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 9,
+      "sectionA": "Apr 4, 2026",
+      "sectionB": "Apr 8, 2026",
+      "topic": "Backend: Databases + SQL",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 10,
+      "sectionA": "Apr 11, 2026",
+      "sectionB": "Apr 15, 2026",
+      "topic": "Backend: NoSQL, Data Stores",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 11,
+      "sectionA": "Apr 18, 2026",
+      "sectionB": "Apr 22, 2026",
+      "topic": "Front End: Javascript",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 12,
+      "sectionA": "Apr 25, 2026",
+      "sectionB": "Apr 25, 2026",
+      "topic": "Closing Lecture",
+      "slides": "",
+      "references": ""
+    }
+  ],
+  "tutorials": [
+    {
+      "number": 1,
+      "date": "Feb 11, 2026",
+      "topic": "Python Problems",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 2,
+      "date": "Feb 25, 2026",
+      "topic": "Advanced Python",
       "slides": "",
       "references": ""
     }

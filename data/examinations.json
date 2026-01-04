@@ -2,11 +2,45 @@
   "examinations": [
     {
       "serial": 1,
-      "type": "",
-      "topic": "",
-      "announcement": "",
-      "deadline": "",
-      "github": ""
+      "type": "Quiz 1",
+      "start": "",
+      "end": "",
+      "link": ""
+    },
+    {
+      "serial": 2,
+      "type": "Mid Semester Exam",
+      "start": "",
+      "end": "",
+      "link": ""
+    },
+    {
+      "serial": 3,
+      "type": "Mid Lab Exam",
+      "start": "",
+      "end": "",
+      "link": ""
+    },
+    {
+      "serial": 4,
+      "type": "Quiz 2",
+      "start": "",
+      "end": "",
+      "link": ""
+    },
+    {
+      "serial": 5,
+      "type": "End Semester Exam",
+      "start": "",
+      "end": "",
+      "link": ""
+    },
+    {
+      "serial": 6,
+      "type": "End Lab Exam",
+      "start": "",
+      "end": "",
+      "link": ""
     }
   ]
 }

@@ -335,7 +335,7 @@ table a:hover {
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0 2px 4px var(--shadow);
