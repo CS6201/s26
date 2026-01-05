@@ -47,16 +47,16 @@
     {
       "name": "Shreyas Deb",
       "email": "shreyas.deb@research.iiit.ac.in",
-      "photo": "",
-      "hours": "TBA",
+      "photo": "images/shreyas.jpg",
+      "hours": "11:00 - 12:00, Tuesday",
       "location": "CCNSB"
     },
     {
       "name": "Shubham Goel",
       "email": "shubham.goel@students.iiit.ac.in",
-      "photo": "images/shubham.jpeg",
-      "hours": "14:00 - 15:00, Sat",
-      "location": "CVIT,KCIS 3rd floor"
+      "photo": "images/shubham.jpg",
+      "hours": "14:00 - 15:00, Saturday",
+      "location": "CVIT"
     }
   ]
 }
