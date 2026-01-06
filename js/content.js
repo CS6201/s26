@@ -239,6 +239,7 @@ async function loadLabs() {
             <h2>Labs</h2>
             <div class="section-info">
                 <p><strong>Timing:</strong> 14:00 - 17:00</p>
+                <p><strong>Location:</strong> H-105</p>
             </div>
             
             <table>
