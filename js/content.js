@@ -240,6 +240,7 @@ async function loadLabs() {
             <div class="section-info">
                 <p><strong>Timing:</strong> 14:00 - 17:00</p>
                 <p><strong>Location:</strong> H-105</p>
+                <p><strong>Note:</strong> Laptops are required for all lab sessions.</p>
             </div>
             
             <table>
