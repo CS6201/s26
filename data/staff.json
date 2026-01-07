@@ -17,6 +17,13 @@
   ],
   "tas": [
     {
+      "name": "Abhyudit Singh",
+      "email": "abhyudit.singh@research.iiit.ac.in",
+      "photo": "images/abhyudit.jpg",
+      "hours": "17:00 - 18:00, Thursday",
+      "location": "MT-NLP Lab, LTRC"
+    },
+    {
       "name": "Amol Vijayachandran",
       "email": "amol.vijayachandran@students.iiit.ac.in",
       "photo": "images/amol.jpg",
@@ -36,6 +43,13 @@
       "photo": "images/hrishiraj.jpg",
       "hours": "16:00 - 17:00, Tuesday",
       "location": "MT-NLP Lab, LTRC"
+    },
+    {
+      "name": "Krish Jalan",
+      "email": "krish.jalan@students.iiit.ac.in",
+      "photo": "images/krish.jpg",
+      "hours": "10:00 - 11:00, Wednesday",
+      "location": "DSAC"
     },
     {
       "name": "Prasoon Dev",

@@ -4,7 +4,7 @@
       "number": 1,
       "date": "Jan 7, 2026",
       "topic": "Git, SSH, Vim",
-      "slides": "",
+      "slides": "assets/lab1_slides.pdf",
       "references": "",
       "activity": "assets/lab1_activity.pdf"
     },
