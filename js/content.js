@@ -229,6 +229,7 @@ async function loadLabs() {
                 <td>${lab.date || ''}</td>
                 <td>${lab.topic || ''}</td>
                 <td>${lab.slides ? `<a href="${lab.slides}" target="_blank">Slides</a>` : ''}</td>
+                <td>${lab.activity ? `<a href="${lab.activity}" download>Activity</a>` : ''}</td>
                 <td>${lab.references ? `<a href="${lab.references}" target="_blank">References</a>` : ''}</td>
             </tr>
         `;
@@ -250,6 +251,7 @@ async function loadLabs() {
                         <th>Date</th>
                         <th>Topic</th>
                         <th>Slides</th>
+                        <th>Activity</th>
                         <th>References</th>
                     </tr>
                 </thead>

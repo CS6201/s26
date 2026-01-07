@@ -5,42 +5,48 @@
       "date": "Jan 7, 2026",
       "topic": "Git, SSH, Vim",
       "slides": "",
-      "references": ""
+      "references": "",
+      "activity": "assets/lab1_activity.pdf"
     },
     {
       "number": 2,
       "date": "Jan 21, 2026",
       "topic": "Shell Scripting",
       "slides": "",
-      "references": ""
+      "references": "",
+      "activity": ""
     },
     {
       "number": 3,
       "date": "Jan 28, 2026",
       "topic": "Python Basics",
       "slides": "",
-      "references": ""
+      "references": "",
+      "activity": ""
     },
     {
       "number": 4,
       "date": "Feb 11, 2026",
       "topic": "Python Files, Functions",
       "slides": "",
-      "references": ""
+      "references": "",
+      "activity": ""
     },
     {
       "number": 5,
       "date": "Feb 25, 2026",
       "topic": "Python Modules, Problems",
       "slides": "",
-      "references": ""
+      "references": "",
+      "activity": ""
     },
     {
       "number": 6,
       "date": "Mar 11, 2026",
       "topic": "Python + System",
       "slides": "",
-      "references": ""
+      "references": "",
+      "activity": ""
     }
   ]
 }
