@@ -5,6 +5,12 @@
       "type": "Cheat Sheet",
       "title": "Git Basics",
       "link": "https://git-scm.com/cheat-sheet.pdf"
+    },
+    {
+      "serial": 2,
+      "type": "Cheat Sheet",
+      "title": "Bash",
+      "link": "https://fac.iitg.ac.in/asahu/cs241-2018/A3/reference_bash-cheatsheet.pdf"
     }
   ]
 }

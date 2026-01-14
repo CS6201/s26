@@ -44,7 +44,7 @@
       "number": 5,
       "sectionA": "Feb 18, 2026",
       "sectionB": "Feb 21, 2026",
-      "topic": "S/w System Overview: Network, Memory, System Design Patterns",
+      "topic": "Software System Overview: Network, Memory, System Design Patterns",
       "slides": "",
       "references": ""
     },
@@ -52,7 +52,7 @@
       "number": 6,
       "sectionA": "Mar 7, 2026",
       "sectionB": "Mar 11, 2026",
-      "topic": "S/w System Development: Testing, IDE, CI/CD Pipelines",
+      "topic": "Software System Development: Testing, IDE, CI/CD Pipelines",
       "slides": "",
       "references": ""
     },
