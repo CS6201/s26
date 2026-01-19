@@ -9,14 +9,14 @@
     },
     {
       "serial": 2,
-      "type": "Mid Semester Exam",
+      "type": "Mid Lab Exam",
       "start": "",
       "end": "",
       "link": ""
     },
     {
       "serial": 3,
-      "type": "Mid Lab Exam",
+      "type": "Mid Semester Exam",
       "start": "",
       "end": "",
       "link": ""
@@ -30,14 +30,14 @@
     },
     {
       "serial": 5,
-      "type": "End Semester Exam",
+      "type": "End Lab Exam",
       "start": "",
       "end": "",
       "link": ""
     },
     {
       "serial": 6,
-      "type": "End Lab Exam",
+      "type": "End Semester Exam",
       "start": "",
       "end": "",
       "link": ""

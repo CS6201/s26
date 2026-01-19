@@ -44,7 +44,7 @@
       "number": 5,
       "sectionA": "Feb 18, 2026",
       "sectionB": "Feb 21, 2026",
-      "topic": "Software System Overview: Network, Memory, System Design Patterns",
+      "topic": "Web Tech: HTML/CSS",
       "slides": "",
       "references": ""
     },
@@ -52,7 +52,7 @@
       "number": 6,
       "sectionA": "Mar 7, 2026",
       "sectionB": "Mar 11, 2026",
-      "topic": "Software System Development: Testing, IDE, CI/CD Pipelines",
+      "topic": "Web Tech: Javascript",
       "slides": "",
       "references": ""
     },
@@ -60,7 +60,7 @@
       "number": 7,
       "sectionA": "Mar 18, 2026",
       "sectionB": "Mar 20, 2026",
-      "topic": "Web Tech: HTML/CSS",
+      "topic": "Software System Overview: Network, Memory, System Design Patterns",
       "slides": "",
       "references": ""
     },
@@ -68,7 +68,7 @@
       "number": 8,
       "sectionA": "Mar 25, 2026",
       "sectionB": "Mar 28, 2026",
-      "topic": "Web Tech: Javascript",
+      "topic": "Software System Development: Testing, IDE, CI/CD Pipelines",
       "slides": "",
       "references": ""
     },

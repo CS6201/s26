@@ -3,7 +3,7 @@
     {
       "number": 1,
       "date": "Jan 7, 2026",
-      "topic": "Git, SSH, Vim",
+      "topic": "Git and Github",
       "slides": "assets/lab1_slides.pdf",
       "references": "",
       "activity": "assets/lab1_activity.pdf"
@@ -18,8 +18,8 @@
     },
     {
       "number": 3,
-      "date": "Jan 28, 2026",
-      "topic": "Python Basics",
+      "date": "Jan 24, 2026",
+      "topic": "Python Basics, Files and Functions",
       "slides": "",
       "references": "",
       "activity": ""
@@ -27,23 +27,63 @@
     {
       "number": 4,
       "date": "Feb 11, 2026",
-      "topic": "Python Files, Functions",
+      "topic": "Python Modules",
       "slides": "",
       "references": "",
       "activity": ""
     },
     {
       "number": 5,
-      "date": "Feb 25, 2026",
-      "topic": "Python Modules, Problems",
+      "date": "Feb 18, 2026",
+      "topic": "Advanced Python",
       "slides": "",
       "references": "",
       "activity": ""
     },
     {
       "number": 6,
+      "date": "Mar 7, 2026",
+      "topic": "HTML and CSS",
+      "slides": "",
+      "references": "",
+      "activity": ""
+    },
+    {
+      "number": 7,
       "date": "Mar 11, 2026",
-      "topic": "Python + System",
+      "topic": "JavaScript",
+      "slides": "",
+      "references": "",
+      "activity": ""
+    },
+    {
+      "number": 8,
+      "date": "Mar 28, 2026",
+      "topic": "Python for Systems",
+      "slides": "",
+      "references": "",
+      "activity": ""
+    },
+    {
+      "number": 9,
+      "date": "Apr 8, 2026",
+      "topic": "SQL Databases",
+      "slides": "",
+      "references": "",
+      "activity": ""
+    },
+    {
+      "number": 10,
+      "date": "Apr 15, 2026",
+      "topic": "NoSQL Databases and Data Stores",
+      "slides": "",
+      "references": "",
+      "activity": ""
+    },
+    {
+      "number": 11,
+      "date": "Apr 22, 2026",
+      "topic": "Introduction to Prompt Engineering for Software Development",
       "slides": "",
       "references": "",
       "activity": ""

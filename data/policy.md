@@ -8,7 +8,13 @@ This course requires students to submit assignments, participate in in-class act
 
 ### Use of AI Tools
 
-Students are free to use different AI tools like ChatGPT, GitHub Copilot, Gemini, etc. for the course assignments/activities. However, please do **mention what tools and how they have been used in the submission report**. It is important to know the concept before using the tools, as your knowledge about the codebase and related concepts shall be tested in the viva. Essentially, feel free to use different tools but use them wisely!
+#### Assignments and Labs
+
+Students are **not** allowed to use any AI tools, including ChatGPT, Github Copilot, Gemini, etc. for any assignment or lab submissions. If any case of AI usage is detected, the submission will be treated as **plagiarism** and will be awarded a **score of 0**. **Egregious cases** will result in a **grade of F** for the course.
+
+#### Project
+
+Students are free to use different AI tools like ChatGPT, GitHub Copilot, Gemini, etc. for the course project. However, please do **mention what tools and how they have been used in the submission report**. It is important to know the concept before using the tools, as your knowledge about the codebase and related concepts shall be tested in the viva. Essentially, feel free to use different tools but use them wisely!
 
 *****Note**: The instructors and TAs reserve the right to deduct marks if the use of AI tools is not appropriately documented or acknowledged in the report.***
 
@@ -18,4 +24,4 @@ Once a grade for certain course deliverable (assignment, quiz, examination, etc.
 
 ### Submission Deadlines
 
-Given the enrollment of over 200 students in this course, no extensions will be granted for any graded task. It is the responsibility of each student to submit assignments and laboratory activities by the prescribed deadline. Students are strongly advised not to delay submissions until the last minute. Technical issues related to the learning management system will not be accepted as justification for late submissions. The instructors and teaching assistants will provide ample time for completion of all assignments and laboratory activities, with a grace period for submission. Students must adhere to the submission guidelines specified for each assignment and laboratory activity. Students who are unable to submit a graded task due to documented health issues, conference attendance, or other exceptional circumstances should contact the academic office to request exemption.
+Given the enrollment of over 250 students in this course, no extensions will be granted for any graded task. It is the responsibility of each student to submit assignments and laboratory activities by the prescribed deadline. Students are strongly advised not to delay submissions until the last minute. Technical issues related to the learning management system will not be accepted as justification for late submissions. The instructors and teaching assistants will provide ample time for completion of all assignments and laboratory activities, with a grace period for submission. Students must adhere to the submission guidelines specified for each assignment and laboratory activity. Students who are unable to submit a graded task due to documented health issues, conference attendance, or other exceptional circumstances should contact the academic office to request exemption.

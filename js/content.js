@@ -259,10 +259,6 @@ async function loadLabs() {
                     ${tableRows}
                 </tbody>
             </table>
-            
-            <div class="note">
-                <strong>Note:</strong> More labs may be added as the semester progresses. This is not the final schedule.
-            </div>
         </div>
     `;
 }
@@ -282,7 +278,7 @@ async function loadAssignments() {
                 <td>${assignment.topic || ''}</td>
                 <td>${assignment.announcement || ''}</td>
                 <td>${assignment.deadline || ''}</td>
-                <td>${assignment.github ? `<a href="${assignment.github}" target="_blank">GitHub Link</a>` : ''}</td>
+                <td>${assignment.link ? `<a href="${assignment.link}" target="_blank">Link</a>` : ''}</td>
             </tr>
         `;
     });
@@ -291,7 +287,7 @@ async function loadAssignments() {
         <div class="section">
             <h2>Assignments</h2>
             <div class="section-info">
-                <p><strong>Note:</strong> All submissions will be made through GitHub Classroom.</p>
+                <p><strong>Note:</strong> All submissions will be made through GitHub Classroom or HackerRank.</p>
             </div>
             
             <table>
@@ -301,17 +297,13 @@ async function loadAssignments() {
                         <th>Topic</th>
                         <th>Announcement</th>
                         <th>Deadline</th>
-                        <th>GitHub Link</th>
+                        <th>Link</th>
                     </tr>
                 </thead>
                 <tbody>
                     ${tableRows}
                 </tbody>
             </table>
-            
-            <div class="note">
-                <strong>Note:</strong> More assignments may be added as the semester progresses. This is not the final schedule.
-            </div>
         </div>
     `;
 }
