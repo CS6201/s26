@@ -31,10 +31,10 @@
       "location": "CVIT"
     },
     {
-      "name": "Ananth Keshav Rajesh",
+      "name": "Ananth Rajesh",
       "email": "ananth.rajesh@students.iiit.ac.in",
       "photo": "images/ananth.jpg",
-      "hours": "12:00 - 1:00, Wednesday",
+      "hours": "12:00 - 13:00, Wednesday",
       "location": "CVIT"
     },
     {
@@ -43,6 +43,13 @@
       "photo": "images/archit.jpg",
       "hours": "17:00 - 18:00, Monday",
       "location": "MT-NLP Lab, LTRC"
+    },
+    {
+      "name": "Arihant Tripathy",
+      "email": "arihant.tripathy@research.iiit.ac.in",
+      "photo": "images/arihant.jpg",
+      "hours": "11:00 - 12:00, Friday",
+      "location":"SERC"
     },
     {
       "name": "Hrishiraj Mitra",
@@ -59,11 +66,32 @@
       "location": "DSAC"
     },
     {
+      "name": "Manas Agrawal",
+      "email": "manas.agrawal@research.iiit.ac.in",
+      "photo": "images/manas.jpg",
+      "hours": "17:00 - 18:00, Thursday",
+      "location": "CCNSB"
+    },
+    {
       "name": "Prasoon Dev",
       "email": "prasoon.dev@research.iiit.ac.in",
       "photo": "images/prasoon.jpg",
       "hours": "15:00 - 16:00, Friday",
       "location": "IREL, LTRC"
+    },
+    {
+      "name": "Rohit Jeswanth",
+      "email": "rohit.jeswanth@research.iiit.ac.in",
+      "photo": "images/rohit.jpg",
+      "hours": "10:30 - 11:30, Tuesday",
+      "location": "CogSci"
+    },
+    {
+      "name": "Ronit Jalihal",
+      "email": "ronit.jalihal@students.iiit.ac.in",
+      "photo": "images/ronit.jpg",
+      "hours": "15:30 - 16:30, Thursday",
+      "location": "Precog, C2S2"
     },
     {
       "name": "Shreyas Deb",
@@ -78,6 +106,20 @@
       "photo": "images/shubham.jpg",
       "hours": "14:00 - 15:00, Saturday",
       "location": "CVIT"
+    },
+    {
+      "name": "Udith Krishna Nair",
+      "email": "udithkrishna.nair@research.iiit.ac.in",
+      "photo": "images/udith.jpg",
+      "hours": "14:00 - 15:00, Tuesday",
+      "location": "IREL, LTRC"
+    },
+    {
+      "name": "Yajat Lakhanpal",
+      "email": "yajat.lakhanpal@research.iiit.ac.in",
+      "photo": "images/yajat.jpg",
+      "hours": "14:00 - 15:00, Monday",
+      "location": "IREL, LTRC"
     }
   ]
 }

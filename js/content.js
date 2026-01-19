@@ -93,7 +93,7 @@ async function loadAbout() {
                     </tr>
                     <tr>
                         <td>Lab Exams</td>
-                        <td>35</td>
+                        <td>30</td>
                         <td>Mid-semester and End-semester: 15% each</td>
                     </tr>
                     <tr>
