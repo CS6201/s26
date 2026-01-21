@@ -12,9 +12,9 @@
       "number": 2,
       "date": "Jan 21, 2026",
       "topic": "Shell Scripting",
-      "slides": "",
+      "slides": "assets/lab2_slides.pdf",
       "references": "",
-      "activity": "assets/lab2_activity.pdf"
+      "activity": ""
     },
     {
       "number": 3,
