@@ -10,7 +10,25 @@
       "serial": 2,
       "type": "Cheat Sheet",
       "title": "Bash",
-      "link": "https://fac.iitg.ac.in/asahu/cs241-2018/A3/reference_bash-cheatsheet.pdf"
+      "link": "https://www.zero2devops.com/blog/bash-scripting-cheat-sheet"
+    },
+    {
+      "serial": 3,
+      "type": "Tutorial",
+      "title": "Learn Bash in Y Minutes",
+      "link": "https://learnxinyminutes.com/bash/"
+    },
+    {
+      "serial": 4,
+      "type": "Tutorial",
+      "title": "Bash- W3Schools",
+      "link": "https://www.w3schools.com/bash/"
+    },
+    {
+      "serial": 5,
+      "type": "Cheat Sheet",
+      "title": "Python Cheat Sheet",
+      "link": "assets/reference_pythonCheatSheet.pdf"
     }
   ]
 }
