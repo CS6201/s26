@@ -20,7 +20,7 @@
       "number": 3,
       "date": "Jan 28, 2026",
       "topic": "Python Basics, Files and Functions",
-      "slides": "",
+      "slides": "assets/lab3_python_basics.py",
       "references": "",
       "activity": ""
     },
