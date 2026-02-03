@@ -333,13 +333,19 @@ async function loadExaminations() {
     
     let tableRows = '';
     data.examinations.forEach(exam => {
+        let keyCell = '';
+        if (Array.isArray(exam.key) && exam.key.length > 0) {
+            keyCell = exam.key.map(k => `<a href="${k.url}" target="_blank">${k.name}</a>`).join(' | ');
+        } else if (exam.key && typeof exam.key === 'string') {
+            keyCell = `<a href="${exam.key}" target="_blank">Key</a>`;
+        }
         tableRows += `
             <tr>
                 <td>${exam.serial}</td>
                 <td>${exam.type || ''}</td>
                 <td>${exam.start || ''}</td>
                 <td>${exam.end || ''}</td>
-                <td>${exam.link ? `<a href="${exam.link}" target="_blank">Link</a>` : ''}</td>
+                <td>${keyCell}</td>
             </tr>
         `;
     });
@@ -355,7 +361,7 @@ async function loadExaminations() {
                         <th>Exam Type</th>
                         <th>Start Time</th>
                         <th>End Time</th>
-                        <th>Link</th>
+                        <th>Key</th>
                     </tr>
                 </thead>
                 <tbody>

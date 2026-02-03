@@ -5,42 +5,45 @@
       "type": "Quiz 1",
       "start": "Jan 31, 2026 9:00",
       "end": "Jan 31, 2026 9:45",
-      "link": ""
+      "key": [
+        { "name": "Set A", "url": "assets/Quiz1_AnswerKey_SetA.pdf" },
+        { "name": "Set B", "url": "assets/Quiz1_AnswerKey_SetB.pdf" }
+      ]
     },
     {
       "serial": 2,
       "type": "Mid Lab Exam",
       "start": "",
       "end": "",
-      "link": ""
+      "key": ""
     },
     {
       "serial": 3,
       "type": "Mid Semester Exam",
       "start": "",
       "end": "",
-      "link": ""
+      "key": ""
     },
     {
       "serial": 4,
       "type": "Quiz 2",
       "start": "",
       "end": "",
-      "link": ""
+      "key": ""
     },
     {
       "serial": 5,
       "type": "End Lab Exam",
       "start": "",
       "end": "",
-      "link": ""
+      "key": ""
     },
     {
       "serial": 6,
       "type": "End Semester Exam",
       "start": "",
       "end": "",
-      "link": ""
+      "key": ""
     }
   ]
 }
