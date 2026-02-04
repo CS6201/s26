@@ -3,8 +3,8 @@
     {
       "serial": 1,
       "type": "Quiz 1",
-      "start": "Jan 31, 2026 9:00",
-      "end": "Jan 31, 2026 9:45",
+      "start": "Jan 31, 2026, 8:45",
+      "end": "Jan 31, 2026, 9:30",
       "key": [
         { "name": "Set A", "url": "assets/Quiz1_AnswerKey_SetA.pdf" },
         { "name": "Set B", "url": "assets/Quiz1_AnswerKey_SetB.pdf" }

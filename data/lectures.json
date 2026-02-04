@@ -13,8 +13,8 @@
       "sectionA": "Jan 7, 2026",
       "sectionB": "Jan 10, 2026",
       "topic": "Shell and Scripting",
-      "slides": "",
-      "references": ""
+      "slides": "https://courses.iiit.ac.in/pluginfile.php/211578/mod_resource/content/1/01_ShellAndScripting.pdf",
+      "references": "https://courses.iiit.ac.in/pluginfile.php/211582/mod_resource/content/1/vi-ShellScripting-Basics.pdf"
     },
     {
       "number": 2,
@@ -29,7 +29,7 @@
       "sectionA": "Jan 24, 2026",
       "sectionB": "Jan 28, 2026",
       "topic": "Python 2: DS, Files, Functions",
-      "slides": "",
+      "slides": "https://courses.iiit.ac.in/pluginfile.php/211579/mod_resource/content/1/02_PythonBasics.pdf",
       "references": ""
     },
     {
