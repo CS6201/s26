@@ -28,7 +28,7 @@
       "number": 3,
       "sectionA": "Jan 24, 2026",
       "sectionB": "Jan 28, 2026",
-      "topic": "Python 2: DS, Files, Functions",
+      "topic": "Python 2: Data Structures",
       "slides": "https://courses.iiit.ac.in/pluginfile.php/211579/mod_resource/content/1/02_PythonBasics.pdf",
       "references": ""
     },
@@ -36,12 +36,20 @@
       "number": 4,
       "sectionA": "Feb 4, 2026",
       "sectionB": "Feb 7, 2026",
-      "topic": "Python 3: Modules, Import",
+      "topic": "Python 3: Files and Functions",
       "slides": "",
       "references": ""
     },
     {
       "number": 5,
+      "sectionA": "Feb 11, 2026",
+      "sectionB": "Feb 9, 2026",
+      "topic": "Python 4: Modules",
+      "slides": "",
+      "references": ""
+    },
+    {
+      "number": 6,
       "sectionA": "Feb 18, 2026",
       "sectionB": "Feb 21, 2026",
       "topic": "Web Tech: HTML/CSS",
@@ -49,7 +57,7 @@
       "references": ""
     },
     {
-      "number": 6,
+      "number": 7,
       "sectionA": "Mar 7, 2026",
       "sectionB": "Mar 11, 2026",
       "topic": "Web Tech: Javascript",
@@ -57,7 +65,7 @@
       "references": ""
     },
     {
-      "number": 7,
+      "number": 8,
       "sectionA": "Mar 18, 2026",
       "sectionB": "Mar 20, 2026",
       "topic": "Software System Overview: Network, Memory, System Design Patterns",
@@ -65,7 +73,7 @@
       "references": ""
     },
     {
-      "number": 8,
+      "number": 9,
       "sectionA": "Mar 25, 2026",
       "sectionB": "Mar 28, 2026",
       "topic": "Software System Development: Testing, IDE, CI/CD Pipelines",
@@ -73,7 +81,7 @@
       "references": ""
     },
     {
-      "number": 9,
+      "number": 10,
       "sectionA": "Apr 4, 2026",
       "sectionB": "Apr 8, 2026",
       "topic": "Backend: Databases + SQL",
@@ -81,7 +89,7 @@
       "references": ""
     },
     {
-      "number": 10,
+      "number": 11,
       "sectionA": "Apr 11, 2026",
       "sectionB": "Apr 15, 2026",
       "topic": "Backend: NoSQL, Data Stores",
@@ -89,7 +97,7 @@
       "references": ""
     },
     {
-      "number": 11,
+      "number": 12,
       "sectionA": "Apr 18, 2026",
       "sectionB": "Apr 22, 2026",
       "topic": "Front End: Javascript",
@@ -97,7 +105,7 @@
       "references": ""
     },
     {
-      "number": 12,
+      "number": 13,
       "sectionA": "Apr 25, 2026",
       "sectionB": "Apr 25, 2026",
       "topic": "Closing Lecture",
@@ -108,13 +116,6 @@
   "tutorials": [
     {
       "number": 1,
-      "date": "Feb 11, 2026",
-      "topic": "Python Problems",
-      "slides": "",
-      "references": ""
-    },
-    {
-      "number": 2,
       "date": "Feb 25, 2026",
       "topic": "Advanced Python",
       "slides": "",
