@@ -35,6 +35,12 @@
       "type": "Question Bank",
       "title": "Lab Questions (Pre Mid Lab Exam)",
       "link": "assets/Questions_PreMidLab.pdf"
+    },
+    {
+      "serial": 7,
+      "type": "Question Bank",
+      "title": "Python Practice Questions",
+      "link": "assets/reference_pythonQuestionBank.pdf"
     }
   ]
 }
