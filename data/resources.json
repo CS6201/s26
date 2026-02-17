@@ -29,6 +29,12 @@
       "type": "Cheat Sheet",
       "title": "Python Cheat Sheet",
       "link": "assets/reference_pythonCheatSheet.pdf"
+    },
+    {
+      "serial": 6,
+      "type": "Question Bank",
+      "title": "Lab Questions (Pre Mid Lab Exam)",
+      "link": "assets/Questions_PreMidLab.pdf"
     }
   ]
 }
