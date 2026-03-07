@@ -147,22 +147,6 @@ async function loadLectures() {
         `;
     });
     
-    let tutorialRows = '';
-    if (data.tutorials && data.tutorials.length > 0) {
-        data.tutorials.forEach(tutorial => {
-            tutorialRows += `
-                <tr>
-                    <td>${tutorial.number}</td>
-                    <td>${tutorial.date || ''}</td>
-                    <td>${tutorial.date || ''}</td>
-                    <td>${tutorial.topic || ''}</td>
-                    <td>${tutorial.slides ? `<a href="${tutorial.slides}" target="_blank">Slides</a>` : ''}</td>
-                    <td>${tutorial.references ? `<a href="${tutorial.references}" target="_blank">References</a>` : ''}</td>
-                </tr>
-            `;
-        });
-    }
-    
     document.getElementById('main-content').innerHTML = `
         <div class="section">
             <h2>Lectures</h2>
@@ -185,29 +169,6 @@ async function loadLectures() {
                 </thead>
                 <tbody>
                     ${lectureRows}
-                </tbody>
-            </table>
-            
-            <h3>Tutorials</h3>
-            <div class="section-info">
-                <p><strong>Timing:</strong> 8:30 - 9:55</p>
-                <p><strong>Section A:</strong> SH-1</p>
-                <p><strong>Section B:</strong> SH-2</p>
-            </div>
-            
-            <table>
-                <thead>
-                    <tr>
-                        <th>Tutorial Number</th>
-                        <th>Section A</th>
-                        <th>Section B</th>
-                        <th>Topic</th>
-                        <th>Slides</th>
-                        <th>References</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${tutorialRows}
                 </tbody>
             </table>
         </div>

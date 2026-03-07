@@ -58,7 +58,7 @@
     },
     {
       "number": 7,
-      "sectionA": "Mar 7, 2026",
+      "sectionA": "Mar 11, 2026",
       "sectionB": "Mar 11, 2026",
       "topic": "Web Tech: Javascript",
       "slides": "",
@@ -109,15 +109,6 @@
       "sectionA": "Apr 25, 2026",
       "sectionB": "Apr 25, 2026",
       "topic": "Closing Lecture",
-      "slides": "",
-      "references": ""
-    }
-  ],
-  "tutorials": [
-    {
-      "number": 1,
-      "date": "Feb 25, 2026",
-      "topic": "Advanced Python",
       "slides": "",
       "references": ""
     }
