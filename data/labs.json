@@ -36,9 +36,9 @@
       "number": 5,
       "date": "Mar 8, 2026",
       "topic": "Advanced Python",
-      "slides": "assets/OOP-5.pdf",
+      "slides": "assets/lab5_slides.pdf",
       "references": "",
-      "activity": ""
+      "activity": "https://www.hackerrank.com/classism"
     },
     {
       "number": 6,
