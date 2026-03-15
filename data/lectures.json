@@ -60,7 +60,7 @@
       "number": 7,
       "sectionA": "Mar 11, 2026",
       "sectionB": "Mar 11, 2026",
-      "topic": "Web Tech: Javascript",
+      "topic": "Web Tech: CSS and Introduction to Javascript",
       "slides": "",
       "references": ""
     },
@@ -68,7 +68,7 @@
       "number": 8,
       "sectionA": "Mar 18, 2026",
       "sectionB": "Mar 20, 2026",
-      "topic": "Software System Overview: Network, Memory, System Design Patterns",
+      "topic": "Javascript 1",
       "slides": "",
       "references": ""
     },
@@ -76,7 +76,7 @@
       "number": 9,
       "sectionA": "Mar 25, 2026",
       "sectionB": "Mar 28, 2026",
-      "topic": "Software System Development: Testing, IDE, CI/CD Pipelines",
+      "topic": "Javascript 2 and Datastores/SQL",
       "slides": "",
       "references": ""
     },
@@ -84,7 +84,7 @@
       "number": 10,
       "sectionA": "Apr 4, 2026",
       "sectionB": "Apr 8, 2026",
-      "topic": "Backend: Databases + SQL",
+      "topic": "Datastores: SQL and NoSQL",
       "slides": "",
       "references": ""
     },
@@ -92,7 +92,7 @@
       "number": 11,
       "sectionA": "Apr 11, 2026",
       "sectionB": "Apr 15, 2026",
-      "topic": "Backend: NoSQL, Data Stores",
+      "topic": "Software System Overview",
       "slides": "",
       "references": ""
     },
@@ -100,7 +100,7 @@
       "number": 12,
       "sectionA": "Apr 18, 2026",
       "sectionB": "Apr 22, 2026",
-      "topic": "Front End: Javascript",
+      "topic": "Software System Development",
       "slides": "",
       "references": ""
     },
