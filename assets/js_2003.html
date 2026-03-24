@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The human free will test: Aaronson's oracle</title>
+  </head>
+
+  <body>
+     <main>
+        <h1>Aaronson's oracle:Arrow Key Predictor</h1>
+        <p>
+            Click anywhere on this page then press <kbd>←</kbd> and <kbd>→</kbd>. </br>
+            Each key press is counted.
+
+            <div class="label">Left Arrow (<kbd>←</kbd>)</div>
+            <div class="value" id="leftCount">0</div>
+            <div class="label">Right Arrow (<kbd>→</kbd>)</div>
+            <div class="value" id="rightCount">0</div>
+
+            <div class="row">
+                <button id="resetBtn" type="button">Reset</button>
+                <div class="status" id="statusText">Listening for key presses ...</div>
+            </div>
+            Pred | Real = <span id="prediction">- | -</span> </br>
+            Accuracy = <span id="accuracy">NaN% </span> </br>
+            History = <span id="history"> None </span>
+        </p>
+    </main>
+
+    <script>
+        let leftCount = 0;
+        let rightCount = 0;
+        let history = "";
+        let statusText = "";
+        let defaultStatus = "Listening for key presses!";
+        let nextPrediction = "";
+        let correct = 0;
+        let total = 0;  
+        let accuracy = 0;
+
+        const leftCountEl = document.getElementById('leftCount');
+        const rightCountEl = document.getElementById('rightCount');
+        const statusTextEl = document.getElementById('statusText');
+        const historyEl = document.getElementById('history');
+        const predictionEl = document.getElementById('prediction');
+        const accuracyEl = document.getElementById('accuracy'); 
+
+
+        /*
+        JS is single threaded, meaning it can only execute one piece of code at a time. 
+        The event loop continuously checks the event queue and executes the callbacks in order,
+        When an event occurs (like a key press), the corresponding callback function is added to the event queue. 
+        
+        Event loop running -it runs each piece at a time
+        As a callback comes up, it adds it to the task queue
+        Tasks from the queue are executed one at a time by pulling them onto the stack, and the event loop ensures that the UI remains responsive by allowing other tasks to run in between.
+
+        Stack - where the currently executing code lives
+        Task queue - where the events are queued up to be executed
+
+
+┌──────────────┐
+│  Call Stack  │  ← executes code
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│  Web APIs    │  ← timers, DOM, etc.
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│ Task Queue   │  ← waiting callbacks: microtasks and macrostasks
+└──────┬───────┘
+       │
+       ▼
+   Event Loop
+       │
+       └── pushes to Call Stack when empty
+       
+
+       
+
+        */
+
+         function sleep(ms) {
+            const start = Date.now();
+            while (Date.now() - start < ms) {
+                // block
+            }
+        }
+        function bumpStatus(text){
+            statusTextEl.textContent = text;
+            // sleep(1000)
+            // statusText.textContent = defaultStatus;
+            clearTimeout(bumpStatus._t);
+            bumpStatus._t = setTimeout(
+                () => {
+                statusTextEl.textContent = "Listening for key presses!";
+                }, 
+            500 );
+        };
+        function render() {
+            leftCountEl.textContent = leftCount;
+            rightCountEl.textContent = rightCount;
+            historyEl.textContent = history;
+            statusTextEl.textContent = statusText;
+            predictionEl.textContent = String(nextPrediction) + " | " + (history.slice(-1) || "-");
+        }
+
+
+        function accuracyCalc(history, nextPrediction) {
+            if (nextPrediction==history.slice(-1)) {
+                correct += 1;
+            }
+            total += 1;
+            accuracyEl.textContent = ((correct / total) * 100).toFixed(2) + "%";
+        }
+
+         /* window.addEventListener (event, callback) */
+        //  (parameters) => definition of the callback function
+        // = assignment
+        // == comparison (loose): does not check type
+        // === comparison (strict): checks for type
+         window.addEventListener( 'keydown',
+            (event) => {
+            nextPrediction = predictNext(history);
+            if (event.key === 'ArrowLeft') {
+                leftCount++;
+                history += "L";
+                statusText = "Left arrow pressed!"
+                history = history.slice(-5); // Keep only the last 5 entries
+                render();
+                bumpStatus(statusText);
+                accuracyCalc(history, nextPrediction);
+            } else if (event.key === 'ArrowRight') {
+                rightCount++;
+                history += "R";
+                statusText = "Right arrow pressed!";
+                history = history.slice(-5); // Keep only the last 5 entries
+                render();
+                bumpStatus(statusText);
+                accuracyCalc(history, nextPrediction);
+            }
+        }
+    );
+
+    // Reset button event listener
+    const resetBtn = document.getElementById('resetBtn');
+    resetBtn.addEventListener('click', 
+        () => {
+            leftCount = 0;
+            rightCount = 0;
+            history = "None";
+            render();
+        }
+    );
+
+    function randpred() {
+        return Math.random() < 0.5 ? "L" : "R";
+    }
+    function lastpred(text) {
+        return text.slice(-1) === "L" ? "R" : "L";
+    }
+    function predictNext(history) {
+        if (history.length === 0) return randpred();
+        else return lastpred(history);
+    }
+
+
+    </script>
+
+  </body>
+</html>

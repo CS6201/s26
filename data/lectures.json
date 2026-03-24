@@ -61,15 +61,15 @@
       "sectionA": "Mar 11, 2026",
       "sectionB": "Mar 11, 2026",
       "topic": "Web Tech: CSS and Introduction to Javascript",
-      "slides": "",
+      "slides": "assets/webtech_1103.pdf",
       "references": ""
     },
     {
       "number": 8,
-      "sectionA": "Mar 18, 2026",
+      "sectionA": "Mar 20, 2026",
       "sectionB": "Mar 20, 2026",
       "topic": "Javascript 1",
-      "slides": "",
+      "slides": "assets/js_2003.html",
       "references": ""
     },
     {
