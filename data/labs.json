@@ -59,7 +59,7 @@
     {
       "number": 8,
       "date": "Mar 25, 2026",
-      "topic": "Python for Systems",
+      "topic": "SQL and NoSQL",
       "slides": "",
       "references": "",
       "activity": ""
@@ -67,21 +67,13 @@
     {
       "number": 9,
       "date": "Apr 8, 2026",
-      "topic": "SQL Databases",
+      "topic": "Python for Systems",
       "slides": "",
       "references": "",
       "activity": ""
     },
     {
       "number": 10,
-      "date": "Apr 15, 2026",
-      "topic": "NoSQL Databases and Data Stores",
-      "slides": "",
-      "references": "",
-      "activity": ""
-    },
-    {
-      "number": 11,
       "date": "Apr 22, 2026",
       "topic": "Introduction to Prompt Engineering for Software Development",
       "slides": "",
