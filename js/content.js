@@ -273,14 +273,10 @@ async function loadAssignments() {
  * Load Project section
  */
 async function loadProject() {
-    const response = await fetch('data/project.md');
-    const markdown = await response.text();
-    const html = marked.parse(markdown);
-    
     document.getElementById('main-content').innerHTML = `
         <div class="section">
             <h2>Project</h2>
-            ${html}
+            <iframe src="assets/Project.pdf" width="100%" height="800px" style="border: none;"></iframe>
         </div>
     `;
 }
