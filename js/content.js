@@ -278,9 +278,12 @@ async function loadProject() {
             <h2>Project</h2>
             <div class="project-links" style="margin-bottom: 20px;">
                 <p>
-                    <strong>Doubts docs:</strong><br>
+                    <strong>Doubts Docs:</strong><br>
                     <a href="https://hackmd.io/@iss-spring-2026/S1WBWzzoWe" target="_blank">Questions</a> | 
                     <a href="https://hackmd.io/@iss-spring-2026/ryZ_WGzibx" target="_blank">Answers</a>
+                </p>
+                <p>
+                    <strong>batch_data.csv: </strong><a href="assets/batch_data.csv" target="_blank">Click here to download!</a>
                 </p>
             </div>
             <iframe src="assets/Project.pdf" width="100%" height="800px" style="border: none;"></iframe>
