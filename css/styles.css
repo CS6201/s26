@@ -12,6 +12,8 @@
     --text-heading: #ffffff;
     --accent-primary: #4a9eff;
     --accent-secondary: #3d7fc9;
+    --link-color: #78b8ff;
+    --link-visited: #8fb8f0;
     --border-color: #4a4a4a;
     --shadow: rgba(0, 0, 0, 0.3);
     --link-hover: #6bb4ff;
@@ -29,6 +31,8 @@ body.light-theme {
     --text-heading: #1a1a1a;
     --accent-primary: #0066cc;
     --accent-secondary: #0052a3;
+    --link-color: #005bb8;
+    --link-visited: #3a5fa3;
     --border-color: #d0d0d0;
     --shadow: rgba(0, 0, 0, 0.1);
     --link-hover: #3385d6;
@@ -58,6 +62,23 @@ body {
 /* Prevent body scroll when nav is open */
 body.nav-open {
     overflow: hidden;
+}
+
+/* Keep link colors consistent in rendered markdown/content sections */
+main :where(a) {
+    color: var(--link-color);
+    text-decoration-color: color-mix(in srgb, var(--link-color) 65%, transparent);
+    text-underline-offset: 0.12em;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+main :where(a:visited) {
+    color: var(--link-visited);
+}
+
+main :where(a:hover, a:focus-visible) {
+    color: var(--link-hover);
+    text-decoration-color: var(--link-hover);
 }
 
 /* ============================================
