@@ -361,11 +361,11 @@ async function loadResources() {
             </tr>
         `;
     });
-    
+
     document.getElementById('main-content').innerHTML = `
         <div class="section">
             <h2>Resources</h2>
-            
+
             <table>
                 <thead>
                     <tr>

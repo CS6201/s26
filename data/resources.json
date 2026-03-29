@@ -53,6 +53,12 @@
       "type": "Question Bank",
       "title": "Mid Lab Exam- Slot 2",
       "link": "assets/MidLabExam2.pdf"
+    },
+    {
+      "serial": 10,
+      "type": "Question Bank",
+      "title": "JS Practice Examples (Debounce & Throttle)",
+      "link": "assets/JSPracticeExamples.pdf"
     }
   ]
 }
