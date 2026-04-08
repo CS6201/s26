@@ -67,10 +67,10 @@
     {
       "number": 9,
       "date": "Apr 8, 2026",
-      "topic": "Python for Systems",
-      "slides": "",
+      "topic": "Building Web APIs",
+      "slides": "assets/lab9_slides.pdf",
       "references": "",
-      "activity": ""
+      "activity": "https://classroom.github.com/a/6RR5-IIH"
     },
     {
       "number": 10,
