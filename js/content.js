@@ -88,8 +88,8 @@ async function loadAbout() {
                     </tr>
                     <tr>
                         <td>Paper Exams</td>
-                        <td>30</td>
-                        <td>Mid-semester and End-semester: 15% each</td>
+                        <td>34</td>
+                        <td>Mid-semester: 15%, End-semester: 19%</td>
                     </tr>
                     <tr>
                         <td>Lab Exams</td>
@@ -102,8 +102,8 @@ async function loadAbout() {
                         <td>Assignment 1 and 2: 5% each</td>
                     </tr>
                     <tr>
-                        <td>Lab Submissions & Paper Assignments</td>
-                        <td>10</td>
+                        <td>Lab Submissions</td>
+                        <td>6</td>
                         <td></td>
                     </tr>
                     <tr>
